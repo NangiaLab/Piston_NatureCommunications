@@ -1,0 +1,90 @@
+* modified histone residues parameters
+*
+
+BONDS
+NH3  CTL3   200.000     1.4800 
+HA   CTL3   322.000     1.1110 
+NH3  HGPAM2    403.000     1.0400 
+CT2  CT2   222.500     1.5300 
+NH3  CT2   200.000     1.4800 
+HA   CT2   309.000     1.1110 
+HA   CT2      309.000     1.1110  
+NH3  HGPAM1    403.000     1.0400 
+NH3  CTL3   200.000     1.4800
+HA   CTL3   322.000     1.1110 
+NH3  CTL5   200.000     1.4800 
+HA   CTL5   322.000     1.1110 
+HA   CT2      309.000     1.1110  
+
+ANGLES
+
+CT2  NH3  CTL5     67.7     110.0 
+CTL5 NH3  CTL5     67.7     110.0 
+NH3  CTL5  HA    45.000    107.50   35.00   2.10100 
+HA   CTL5  HA    35.500    108.40    5.40   1.80200 
+CT1  CT2  HA  34.500    110.10   22.53   2.17900  
+HA   CT2  NH3 45.000    107.50   35.00   2.10100 
+HA   CT2  HA  35.500    109.00    5.40   1.80200   
+HA   CT2  CT2 26.500    110.10   22.53   2.17900
+CT2  NH3  CTL3     67.7     110.0 
+CTL3  NH3  CTL3     67.7     110.0
+CT1  CT2  HA  34.500    110.10   22.53   2.17900  
+HA   CT2  HA  35.500    109.00    5.40   1.80200   
+HA   CT2  CT2 26.500    110.10   22.53   2.17900
+HA   CT2  NH3 45.000    107.50   35.00   2.10100 
+NH3  CTL3  HA    37.000    107.50   35.00   2.10100 
+HGPAM1   NH3  CT2   30.000    109.50   20.00   2.07400 
+HGPAM1   NH3  CTL3   30.000    109.50   20.00   2.07400 
+HA   CTL3  HA    35.500    108.40    5.40   1.80200 
+CT2  NH3  CT3     67.7     110.0 
+CT3  NH3  CT3     67.7     110.0
+CT2  NH3  CTL3     67.7     110.0 
+NH3  CTL3  HA    37.000    107.50   35.00   2.10100 
+HA   CTL3  HA    35.500    108.40    5.40   1.80200 
+HGPAM2   NH3  CT2   30.000    109.50   20.00   2.07400 
+HGPAM2   NH3  CTL3   30.000    109.50   20.00   2.07400 
+HGPAM2   NH3  HGPAM2     44.000   109.5000
+NH3  CT2  HA    45.000    107.50   35.00   2.10100 
+CT2  NH3  CTL3     67.7     110.0 
+NH3  CT2  CT2    67.700   110.0000 
+CT2  CT2  CT2   130.000    113.60   11.16   2.56100 
+HGPAM2  NH3  CT2   30.000    109.50   20.00   2.07400 
+HA   CT2  CT2   26.500    110.10   22.53   2.17900 
+HA   CT2  HA    35.500    109.00    5.40   1.80200 
+HA   CT2  CT2   26.500    110.10   22.53   2.17900 
+CT1  CT2  HA  34.500    110.10   22.53   2.17900
+
+DIHEDRALS
+
+HA   CT2  NH3  CTL3     0.88  3     0.00 
+CT2  CT2  NH3  CTL3     0.94  3     0.00 
+HA   CTL3  NH3  CT2     0.11  3     0.00 
+HA   CTL3  NH3  CTL3     0.04  3     0.00 
+HA   CTL3  NH3  HGPAM1     0.05  3     0.00 
+HA   CT2  NH3  HGPAM1     0.84  3     0.00 
+CT2  CT2  NH3  HGPAM1     0.66  3     0.00 
+HA   CTL3  NH3  HGPAM1     0.05  3     0.00 
+ct2    CT2  CT2  nh3   0.195 3     0.00
+ct2    CT2  CT2  HA   0.195 3     0.00
+ha    CT2  CT2  nh3    0.195 3     0.00
+ha    CT2  CT2  HA    0.195 3     0.00
+HA   CT2  NH3  HGPAM2    0.20  3     0.00
+CT2  CT2  NH3  HGPAM2     0.60  3     0.00
+HA   CT2  NH3  CTL3   0.10  3     0.00
+CT2  CT2  NH3  CTL3    0.10  3     0.00
+HA   CTL3 NH3  CT2     0.09  3     0.00
+HA   CTL3 NH3  HGPAM2     0.09  3     0.00 
+HA   CT2  NH3  HC      0.84  3     0.00 
+CT2  CT2  NH3  HC      0.66  3     0.00 
+HA   CT2  NH3  CT3     0.88  3     0.00 
+CT2  CT2  NH3  CT3     0.94  3     0.00 
+HA   CT3  NH3  CT2     0.11  3     0.00 
+HA   CT3  NH3  CT3     0.04  3     0.00 
+HA   CT3  NH3  HC      0.05  3     0.00 
+HA   CT2  NH3  CTL5    0.78  3     0.00 
+CT2  CT2  NH3  CTL5    0.36  3     0.00 
+HA   CTL5 NH3  CT2    0.11  3     0.00 
+HA   CTL5 NH3  CTL5    0.03  3     0.00 
+IMPROPER
+
+end
